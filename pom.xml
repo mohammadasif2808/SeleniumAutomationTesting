@@ -10,11 +10,21 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.9.0</version>
+        <exclusions>
+            <exclusion>
+                <groupId>org.webjars</groupId>
+                <artifactId>jquery</artifactId>
+            </exclusion>
+        </exclusions>
+        </dependency>
+        <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.17.0</version>
         </dependency>
-
     </dependencies>
 
     <properties>

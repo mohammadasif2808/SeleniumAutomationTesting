@@ -17,16 +17,11 @@ $('p.error')            use this in the console to check for unique css selector
 - Id -> tagname#id      ->   input#inputUsername
 - Tagname[attribute=’value’]
 - <input type="text" placeholder="Username” value=" ">
-
 - Input [placeholder=’ Username’]
-
 - //Tagname[@attribute=’value’]:nth-child(index). -  Child items
 - Parenttagname childtagname
 - input[type*='pass'] – CSS
 - tagname
-
-
-
 
 ### Xpath
 - //Tagname[@attribute=’value’]
@@ -39,3 +34,6 @@ $('p.error')            use this in the console to check for unique css selector
 - //tagname
 - //header/div/button[1]/following-sibling::button[1]
 - //header/div/button[1]/parent::div
+
+
+
