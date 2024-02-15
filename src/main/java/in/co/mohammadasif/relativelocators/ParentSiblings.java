@@ -1,4 +1,4 @@
-package in.co.mohammadasif.locators.relativelocators;
+package in.co.mohammadasif.relativelocators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
