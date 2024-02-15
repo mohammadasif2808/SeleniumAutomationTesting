@@ -48,7 +48,7 @@ public class Locators {
         // passwordArray2[0]
         return passwordArray[1].split("'")[0];
         //0th index - Please use temporary password
-        //1st index - rahulshettyacademy' to Login.
+        //1st index - rahulshettyacademy ' to Login.
         //0th index - rahulshettyacademy
         //1st index - to Login.
     }
