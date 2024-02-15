@@ -46,8 +46,7 @@ public class Locators {
         String[] passwordArray = passwordText.split("'");
         // String[] passwordArray2 = passwordArray[1].split("'");
         // passwordArray2[0]
-        String password = passwordArray[1].split("'")[0];
-        return password;
+        return passwordArray[1].split("'")[0];
         //0th index - Please use temporary password
         //1st index - rahulshettyacademy' to Login.
         //0th index - rahulshettyacademy
