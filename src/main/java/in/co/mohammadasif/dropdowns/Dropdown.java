@@ -3,11 +3,10 @@ package in.co.mohammadasif.dropdowns;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 //This code is not working as the website layout got changed so much, this code is just for reference.
+
 public class Dropdown {
     public static void main(String[] args) throws InterruptedException {
-
         WebDriver driver =new ChromeDriver();
         driver.get("http://spicejet.com"); //URL in the browser
 //  //a[@value='MAA']  - Xpath for chennai
@@ -19,7 +18,4 @@ public class Dropdown {
         driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='MAA']")).click();
         driver.findElement(By.cssSelector(".ui-state-default.ui-state-highlight.ui-state-active")).click();
     }
-
-
-
 }
